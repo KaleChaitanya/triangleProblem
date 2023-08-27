@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+:root{
+    --dark-color:#581c87;
+    --font-color:#f1f5f9;
+    --black-color:#d8b4fe;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--dark-color);
+    color: var(--font-color);
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+}
+.angle{
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+}
+.btnIsTriangle{
+    background: transparent;
+    color: var(--font-color);
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btnIsTriangle:hover{
+    background-color:var(--black-color);
+}

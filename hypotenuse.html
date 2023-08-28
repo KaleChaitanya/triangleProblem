@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <label for="side1">Side 1</label>
-    <input type="number" class="side">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypotenuse</title>
+    <link rel="icon" type="image/x-icon" href="image/triangle.svg">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a class="navLinks" href="isTriangle.html">Is Triangle?</a>
+      <a class="navLinks" href="tringleQuiz.html">Triangle Quiz</a>
+      <a class="navLinks active" href="hypotenuse.html">Hypotenuse</a>
+      <a class="navLinks" href="areaOfTriangle.html">Area Of Triangle</a>
+    </nav>
+    <h1>Calculate Hypotenuse</h1>
+    <div class="container">
+      <label for="side1">Side 1</label>
+      <input type="number" class="side angle" />
 
-    <label for="side1">Side 1</label>
-    <input type="number" class="side">
+      <label for="side1">Side 2</label>
+      <input type="number" class="side angle" />
 
-    <button id="btnHypotenuse">Calculate Hypotenuse</button>
-    <h2 id="output"></h2>
+      <button id="btnHypotenuse" class="btn">Calculate Hypotenuse</button>
+      <h2 id="output"></h2>
+    </div>
     <script src="js/hypotenuse.js"></script>
-</body>
+  </body>
 </html>

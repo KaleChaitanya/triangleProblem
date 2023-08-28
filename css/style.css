@@ -1,36 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-:root{
-    --dark-color:#581c87;
-    --font-color:#f1f5f9;
-    --black-color:#d8b4fe;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+:root {
+  --dark-color: #581c87;
+  --font-color: #f1f5f9;
+  --black-color: #d8b4fe;
+  --nav-bg: #43302b;
+  --hover-bg: #475569;
 }
-body{
-    margin: 0 auto;
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: var(--dark-color);
-    color: var(--font-color);
+body {
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--dark-color);
+  color: var(--font-color);
 }
-h1{
-    text-align: center;
+/* navbar */
+nav {
+  background-color: var(--nav-bg);
+  padding: 1rem 1rem;
 }
-.container{
-    width: 50%;
-    align-items: center;
-    margin: 0 auto;
+.nav .navLinks {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  color: white;
+  font-size: larger;
 }
-.angle{
-    display: block;
-    width: 100%;
-    padding: 0.5rem 0.5rem;
+.nav .navLinks:hover {
+  color: black;
 }
-.btnIsTriangle{
-    background: transparent;
-    color: var(--font-color);
-    padding: 0.5rem 0.5rem;
-    margin: 1rem auto;
-    font-size: 1rem;
-    cursor: pointer;
+.active{
+font-weight: bolder;
+font-size: x-large;
 }
-.btnIsTriangle:hover{
-    background-color:var(--black-color);
+h1 {
+  text-align: center;
+}
+.question{
+    font-size: larger;
+}
+.container {
+  width: 50%;
+  align-items: center;
+  margin: 0 auto;
+}
+.angle {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+}
+.btn {
+  background: transparent;
+  color: var(--font-color);
+  padding: 0.5rem 0.5rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--black-color);
 }

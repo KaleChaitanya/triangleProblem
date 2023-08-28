@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <label for="base">Base</label>
-    <input type="number" class="input">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area Of Triangle</title>
+    <link rel="icon" type="image/x-icon" href="image/triangle.svg">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="nav">
+        <a class="navLinks" href="isTriangle.html">Is Triangle?</a>
+        <a class="navLinks" href="tringleQuiz.html">Triangle Quiz</a>
+        <a class="navLinks" href="hypotenuse.html">Hypotenuse</a>
+        <a class="navLinks active" href="areaOfTriangle.html">Area Of Triangle</a>
+      </nav>
+    <h1>Calculate Area of Triangle</h1>
+    <div class="container">
+      <label for="base">Base</label>
+      <input type="number" class="input angle" />
 
-    <label for="height">Height</label>
-    <input type="number" class="input">
-    <button id="btnArea">Calculate Area</button>
-    <h4 id="output"></h4>
+      <label for="height">Height</label>
+      <input type="number" class="input angle" />
+      <button id="btnArea" class="btn">Calculate Area</button>
+      <h4 id="output"></h4>
+    </div>
     <script src="js/areaOfTriangle.js"></script>
-</body>
+  </body>
 </html>
